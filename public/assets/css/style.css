@@ -35,7 +35,12 @@ h1 {
 	margin-left: 55%;
 	background-color:  #008CBA;;
 }
-
+#mark{
+	margin-top: 
+}
+.fa {
+	color:white;
+}
 
 .footer {
   position: fixed;
@@ -51,8 +56,12 @@ h1 {
 	background-color:#4CAF50;
 
 }
+
 ul,ol{
 	margin-left: 30%;
+}
+li {
+color:white;
 }
 /*.create {
 	margin-left: 40%;

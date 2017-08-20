@@ -1,7 +1,7 @@
 
 <div class="jumbotron">
   <h1 class=" main-Title text-center">Fresh Burger</h1>
-  <p class="tm text-center">Enjoy Our Burger That Are Made From Scratch.</p>
+  <p class="tm text-center">Enjoy Our Burger That Are Made From Scratch.<sup> <span class="fa fa-trademark" aria-hidden="true"></sup>
 </div>
 <div class = container>
       {{#each burgers}}
@@ -14,7 +14,7 @@
         <span id="devourIt">
           <form action="/{{this.id}}?_method=PUT" method="POST">
             <input type="hidden" name="devoured" value="true">
-            <button class="devour-button" type="submit">Devour it!</button>
+            <button class="devour-button btn btn-primary" type="submit">Devour it!</button>
           </form>
         </span>
       </li>
@@ -36,7 +36,7 @@
         <textarea id="createBurger" placeholder="type the name of the burger here please." rows="3" class="col-sm-4" name="burger_name"></textarea>
       </div>
 
-      <button type="submit" id="submit3" >Submit</button>
+      <button type="submit" id="submit3" class="btn btn-default">Submit</button>
     </form>
 
   </section>
