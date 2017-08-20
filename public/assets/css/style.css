@@ -1,0 +1,59 @@
+
+body {
+	background-color: #FF6347;
+}
+h1 {
+	color: #F5F5F5;
+    font-family: "Helvetica Black";
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.jumbotron {
+	background-color: #FF0000;
+}
+
+#enter{
+	margin-left: 45%;
+	color:white;
+
+}
+
+.tm {
+	color: white;
+	font-family: 'Bad Script', cursive;
+}
+
+#createBurger {
+	margin-left: 40%;
+
+}
+.burger_name{
+	margin-top: 10px;
+}
+#submit3 {
+	margin-top: 10px;
+	margin-left: 55%;
+	background-color:  #008CBA;;
+}
+
+
+.footer {
+  position: fixed;
+ margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #666666;
+}
+.devour-button {
+	background-color:#4CAF50;
+
+}
+ul,ol{
+	margin-left: 30%;
+}
+/*.create {
+	margin-left: 40%;
+}*/
