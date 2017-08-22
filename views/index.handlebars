@@ -4,6 +4,7 @@
   <p class="tm text-center">Enjoy Our Burger That Is Made From Scratch.<sup> <span class="fa fa-trademark" aria-hidden="true"></sup>
 </div>
 <div class = container>
+<section class="before_devour">
       {{#each burgers}}
       {{#unless this.devoured}}
     
@@ -20,7 +21,7 @@
      
       {{/unless}}
       {{/each}}
- 
+ </section>
     <ol>
       {{#each burgers}}
       {{#if this.devoured}}
@@ -28,6 +29,7 @@
         {{this.id}}
         {{this.burger_name}}
      <br>
+
       {{/if}}
       {{/each}}
     </ol>
