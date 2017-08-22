@@ -38,6 +38,12 @@ router.put("/:id", function(req, res) {
     res.redirect("/");
   });
 });
-
+// let the customer beable to delate what the type if they don,t like it
+router.delete("/delete/:id", function(req, res) {
+  var condition = "id = " + req.params.id;
+  burger.delete(condition, function() {
+    res.redirect("/");
+  });
+});
 // Export so that it can be used to on server.js
 module.exports = router;

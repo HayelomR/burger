@@ -15,7 +15,6 @@ function printQuestionMarks(num) {
 // Helper function for SQL syntax.
 function objToSql(ob) {
   var arr = [];
-
   for (var key in ob) {
     if (Object.hasOwnProperty.call(ob, key)) {
       arr.push(key + "=" + ob[key]);
