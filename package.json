@@ -1,13 +1,8 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dear the user of this app this app was built using javascript and express server aswell as bootstrap grid system for the UI.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Hayelom Reda",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
@@ -15,5 +10,20 @@
     "handlebars": "^4.0.10",
     "method-override": "^2.3.9",
     "mysql": "^2.14.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HayelomR/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HayelomR/burger/issues"
+  },
+  "homepage": "https://github.com/HayelomR/burger#readme"
 }
