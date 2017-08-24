@@ -6,4 +6,4 @@ after navigating to the main section go head and type the name of the burger you
 
 			Here is the Heroku link for the app
 After taking a great time and effort this app is deployed to heroku.
-		https://vast-reaches-86214.herokuapp.com/
+		https://chooseburger.herokuapp.com/
