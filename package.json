@@ -1,29 +1,31 @@
+
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "Dear the user of this app this app was built using javascript and express server aswell as bootstrap grid system for the UI.",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
-    "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.10",
-    "method-override": "^2.3.9",
-    "mysql": "^2.14.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HayelomR/burger.git"
+    "url": "https://github.com/HayelomR/burger"
   },
-  "author": "",
+  "author": "Hayelom Reda",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HayelomR/burger/issues"
+    "url": "https://github.com/HayelomR/burger"
   },
-  "homepage": "https://github.com/HayelomR/burger#readme"
+  "homepage": "https://github.com/HayelomR/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
 }
