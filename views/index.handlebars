@@ -1,0 +1,49 @@
+
+<div class="jumbotron">
+  <h1 class=" main-Title text-center">Fresh Burger</h1>
+  <p class="tm text-center">Enjoy Our Burger That Is Made From Scratch.<sup> <span class="fa fa-trademark" aria-hidden="true"></sup>
+</div>
+<div class = container>
+<section class="before_devour">
+      {{#each burgers}}
+      {{#unless this.devoured}}
+    
+        <span class="burgers">
+          {{this.id}}
+          {{this.burger_name}}
+        </span>
+        <span id="devourIt">
+          <form action="/{{this.id}}?_method=PUT" method="POST">
+            <input type="hidden" name="devoured" value="true">
+            <button class="devour-button btn btn-primary glyphicon glyphicon-menu-hamburger" type="submit">Devour it!</button>
+          </form>
+        </span>
+     
+      {{/unless}}
+      {{/each}}
+ </section>
+    <ol>
+      {{#each burgers}}
+      {{#if this.devoured}}
+      
+        {{this.id}}
+        {{this.burger_name}}
+     <br>
+
+      {{/if}}
+      {{/each}}
+    </ol>
+    <form class="create" action="/" method="POST">
+      <div class="form-group">
+        <textarea id="createBurger" placeholder="type the name of the burger here please." rows="3" class="col-sm-4" name="burger_name"></textarea>
+      </div>
+
+      <button type="submit" id="submit3" class=" glyphicon glyphicon-menu-hamburger  btn btn-default">Submit</button>
+    </form>
+
+  </section>
+  </div>
+</div>
+ <footer class="footer">
+      &copy; Hayelom Reda 2017
+    </footer>
